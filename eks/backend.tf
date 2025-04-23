@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "dev-komal-tf-bucket"
+    bucket         = "abhya-komal"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Log-files"
+    dynamodb_table = "logfile"
     encrypt        = true
   }
 }
