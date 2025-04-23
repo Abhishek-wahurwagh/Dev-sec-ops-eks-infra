@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/Abhishek-wahurwagh/Dev-sec-ops-eks-infra.git'
+                git branch: 'main', url: 'https://github.com/Abhishek-wahurwagh/Dev-sec-ops-eks-infra.git'
             }
         }
         stage('Init') {
